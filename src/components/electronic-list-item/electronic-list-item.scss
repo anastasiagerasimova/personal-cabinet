@@ -1,0 +1,66 @@
+.electronicCard{
+    display: flex;
+    width: calc(50% - 16px);
+    max-width: 540px;
+    height: 183px;
+    margin-right: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px #EBE7FF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+
+    h4{
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 1.1786;
+        color: #000000;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #000000;
+    }
+
+    &:hover{
+        border: 2px solid #50CAFF;
+        text-decoration: none;
+
+        .imageCell{
+            background: #50CAFF;
+
+        }
+
+        svg{
+            fill:#fff;
+            stroke: #50CAFF;
+        }
+    }
+}
+
+.imageCell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 133px;
+    height: 100%;
+    background: #fff;
+    transition: all 0.4s ease-in;
+
+    svg{
+        fill: #EBE7FF;
+        stroke: #fff;
+        transition: all 0.4s ease-in;
+    }
+}
+
+.textCell{
+    max-width: 407px;
+    padding: 20px 20px 20px 36px;
+    text-decoration: none;
+}

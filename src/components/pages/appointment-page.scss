@@ -1,0 +1,26 @@
+.back{
+    padding: 14px 20px 10px;
+    a{
+        color: #000;
+        text-decoration: none;
+    }
+    span{
+        margin-right: 14px;
+    }
+    button{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.1875;
+        color: #000000;
+    }
+}
+
+.appointments{
+    display: flex;
+}
+
+.container{
+    padding: 55px 20px 0;
+    height: 100vh;
+    overflow-y: hidden;
+}

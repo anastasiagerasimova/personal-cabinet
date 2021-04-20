@@ -1,0 +1,39 @@
+.listWrapper{
+    width: 100%;
+    height: calc(100vh - 55px);
+    max-width: 505px;
+    margin-right: 40px;
+    overflow-y: scroll;
+}
+
+.showAll{
+    margin-bottom: 13px;
+    padding-right: 48px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.214;
+    text-align: right;
+    text-decoration-line: underline;
+
+    a{
+        color: #50CAFF;
+        &:hover{
+            color: #50CAFF;
+        }
+    }
+}
+
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+
+    li{
+        margin-bottom: 15px;
+
+        div.appointmentCard{
+            margin-right: 0 !important;
+        }
+    }
+}

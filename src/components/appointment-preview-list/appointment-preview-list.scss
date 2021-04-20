@@ -1,0 +1,38 @@
+.wrapper{
+    margin-bottom: 20px;
+}
+
+.heading{
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    color: #000000;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.more{
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.4285;
+    color: #000000;
+
+    a{
+        text-decoration-line: underline;
+        text-align: center;
+        color: #50CAFF;
+
+        &:hover{
+            color: #50CAFF;
+        }
+    }
+}

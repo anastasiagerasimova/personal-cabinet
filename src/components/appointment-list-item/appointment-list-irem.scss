@@ -1,0 +1,88 @@
+.appointmentCard{
+    max-width: 475px;
+    height: 174px;
+    margin-right: 20px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px #EBE7FF;
+}
+
+.appointmentCard:last-child{
+    margin-right: 0;
+}
+
+.date{
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    color: #000000;
+}
+
+.address{
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.428;
+    color: #000000;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info button{
+    width: 98px;
+    height: 40px;
+    align-self: flex-end;
+    background: #7761FF;
+    border-radius: 5px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+.doctor{
+    display: flex;
+    align-items: center;
+}
+
+.doctorPhoto{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.doctorInfo span{
+    display: block;
+}
+
+.doctorInfo span:first-child{
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.214;
+    color: #000000;
+}
+
+.doctorInfo span:last-child{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.214;
+    color: #EBE7FF;
+}
+

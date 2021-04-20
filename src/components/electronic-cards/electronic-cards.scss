@@ -1,0 +1,131 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading{
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    color: #000000;
+}
+
+.card{
+    display: flex;
+    width: calc(50% - 16px);
+    max-width: 540px;
+    height: 183px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px #EBE7FF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+
+    h4{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 1.1786;
+        color: #000000;
+    }
+
+    hr{
+        height: 2px;
+        width: 100%;
+        margin: 0;
+        border: 1px solid #EBE7FF;
+        box-sizing: border-box;
+    }
+
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        color: #000000;
+        margin-top: 15px;
+
+        li{
+            position: relative;
+            margin-bottom: 7px;
+            padding-left: 15px;
+
+            &::before{
+                position: absolute;
+                content: '';
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                background: #50CAFF;
+
+            }
+
+            &:last-child{
+                margin-bottom: 7px;
+            }
+        }
+
+    }
+
+    p{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #000000;
+    }
+
+    &:hover{
+        border: 2px solid #50CAFF;
+        text-decoration: none;
+
+        .imageCell{
+            background: #50CAFF;
+
+        }
+
+        svg{
+            fill:#fff;
+            stroke: #50CAFF;
+        }
+
+        hr{
+            border: 1px solid #50CAFF;
+        }
+    }
+}
+
+.imageCell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 133px;
+    height: 100%;
+    background: #fff;
+    transition: all 0.4s ease-in;
+
+    svg{
+        fill: #EBE7FF;
+        stroke: #fff;
+        transition: all 0.4s ease-in;
+    }
+}
+
+.textCell{
+    margin: auto 0;
+    max-width: 407px;
+    padding: 0px 20px 0 36px;
+    text-decoration: none;
+}
