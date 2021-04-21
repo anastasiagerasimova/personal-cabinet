@@ -1,6 +1,6 @@
 # Личный кабинет
 
-####  [**Онлайн демо**](https://personal-cabinet-react.herokuapp.com/appointments)
+####  [**Онлайн демо**](https://personal-cabinet-react.herokuapp.com)
 
 #### Доступные команды
 * `npm install` - установить зависимости
